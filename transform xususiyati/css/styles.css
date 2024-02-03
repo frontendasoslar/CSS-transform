@@ -50,5 +50,5 @@
   transform: scaleX(0.5);
 
   /* box klasli element hover eni 2 barovar kattalashadi, bo'yi 1.5 barovar kichrayadi */
-  transform: scale(2, 1.5);
+  /* boz klasli elementni 180 gradusga aylantiradi */
 }
