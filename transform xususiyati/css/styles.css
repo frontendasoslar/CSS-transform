@@ -16,18 +16,39 @@
 
 /* Transform - bu elementni hover yoki aktin holatida oning vaziyati(lotatini) o'zgartirishi uchun ishlatiladican CSS klasi. CSS transformdan quyidagicha foydalanishimiz mumkun*/
 .box:hover {
-  /* box klasli element hover holatida 200px o'nga suriladi */
+  /* box klasli element hover holatida 200px o'nga suriladi
   transform: translateX(200px);
 
   /* box klasli element hover holatida 200px chapga suriladi */
-  transform: translateX(-200px);
+  /* transform: translateX(-200px); */
 
   /* box klasli element hover holatida 200px pastga tushadi */
-  transform: translateY(200px);
+  /* transform: translateY(200px); */
 
   /* box klasli element hover holatida 200px tepaga chiqadi */
-  transform: translateY(-200px);
+  /* transform: translateY(-200px); */
 
   /* box klasli element hover holatida 100px o'ng suriladi va 100px pastga tushadi */
+  /* transform: translate(-100px, 100px); */
+
+  /* box klasli element hover holatida 1.5 baravar kattalashadi */
+  transform: scale(1.5);
+
+  /* box klasli element hover holatida 0.5 baravar kichrayadi */
   transform: scale(0.5);
+
+  /* box klasli element hover eni 2 barovar kattalashadi */
+  transform: scaleX(2);
+
+  /* box klasli element hover eni 0.5 barovar kichrayadi */
+  transform: scaleX(0.5);
+
+  /* box klasli element hover boyi 2 barovar kattalashadi */
+  transform: scaleY(2);
+
+  /* box klasli element hover boyi 0.5 barovar kichrayadi */
+  transform: scaleX(0.5);
+
+  /* box klasli element hover eni 2 barovar kattalashadi, bo'yi 1.5 barovar kichrayadi */
+  transform: scale(2, 1.5);
 }
