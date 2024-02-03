@@ -29,5 +29,5 @@
   transform: translateY(-200px);
 
   /* box klasli element hover holatida 100px o'ng suriladi va 100px pastga tushadi */
-  transform: translate(-100px, 100px);
+  transform: scale(0.5);
 }
