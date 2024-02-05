@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://avatars.mds.yandex.net/i?id=cc96900cb332344891a7738c3db2411f82541197-9046334-images-thumbs&n=13");
+}
+.box {
+  background-image: url("https://avatars.mds.yandex.net/i?id=94534a02ced2ed331aa7cae0f76507c84534a5d1-4552311-images-thumbs&n=13");
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 420px;
+  height: 620px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 20px ridge #694407;
+
+}
+.box1 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 195px;
+  height: 595px;
+  border: 20px ridge #694407;
+  margin-right: 0.5px;
+  transform-origin: left center;
+  transition: transform 3s ease;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+.box2 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 20px ridge #694407;
+  width: 195px;
+  height: 595px;
+  transform-origin: right center;
+  transition: transform 3s ease;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.box:hover .box1 {
+  transform: perspective(2000px) rotateY(-120deg);
+}
+
+.box:hover .box2 {
+  transform: perspective(2000px) rotateY(120deg);
+}
