@@ -1,0 +1,19 @@
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: deeppink;
+  border: 5px solid #000;
+  color: #000;
+  width: 300px;
+  height: 300px;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.box1:hover {
+  /* CSS transformda perspective(..); elemantni transform orqali xolatini o'zgartirganimizda 2D o'zgarishdan 3D o'zgarishga o'tkazib beradi. Ya'ni yaqin qismi kattaroq uzoq qismi kichikroq ko'rpnadi. perspective(2000px); qiymati uchun kompyuter ekranidan inson ko'zigacha bo'lgan masofa  olinadi*/
+  transform: perspective(2000px) rotateX(60deg) rotateY(45deg);
+}
