@@ -11,10 +11,21 @@
   margin-right: auto;
   margin-left: auto;
   transition: transform 0.6s ease;
+  /* transform-orign - bu elementni qaysi nuqtaga nisbatan transform stillari o'zgarishi uchun ishlatiladi */
+  /* transform-origining tabiy qiymati
+  transform-origin: center center;  element markaziy nuqtaga nisbatan o'zgaradi,
+  transform-origin: left center; element chap markaziy nuqtaga nisbatan o'zgaradi,
+  transform-origin: top center; element tepa markaziy nuqtaga nisbatan o'zgaradi,
+  transform-origin: right center; element o'ng markaziy nuqtaga nisbatan o'zgaradi,
+  transform-origin: bottom center; element chap markaziy nuqtaga nisbatan o'zgaradi,
+  Shu tariqa qaysi nuqtaga nispatan o'zgartirmoqchi bo'lsan transform-origin: ga qiymat beramiz*/
+  transform-origin: bottom center;
+
 }
 
 
 .box1:hover {
   /* CSS transformda amallar ketma ketligi muhim ahamiyatga ega ya'ni qaysi amallni birinchiga qo'ysak o'sha hodisa birinchi sodir bo'ladi */
-  transform: scale(1.5) rotate(45deg) translate(200px, 200px) translateY(100px);
+  /* transform: scale(1.5) rotate(45deg) translate(200px, 200px) translateY(100px); */
+  transform: scale(2) rotate(45deg);
 }
